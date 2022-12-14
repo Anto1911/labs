@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XSL/users.xsl"?>
+
+<!--<users xmlns="http://www.shilpademo.com/labs"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.shilpademo.com/labs users.xsd">-->
+  <users>
+    <user>
+        <ID>608493</ID>
+        <name>Alice Ming</name>
+        <email>alice.m@example.com</email>
+        <password>Helloworld222</password>
+        <DOB>1999-03-02</DOB>        
+    </user>
+    <user>
+        <ID>608500</ID>
+        <name>Shilpa G</name>
+        <email>shilpa.g@example.com</email>
+        <password>Helloo123</password>
+        <DOB>1991-09-30</DOB>        
+    </user>
+    <user>
+        <ID>100129</ID>
+        <name>John Smith</name>
+        <email>john.smith@uts.com</email>
+        <password>Helloo123</password>
+        <DOB>2000-12-30</DOB>        
+    </user>
+    <user>
+        <ID>100129</ID>
+        <name>Alex Jones</name>
+        <email>alex.jones@abdc.com</email>
+        <password>Helloo123</password>
+        <DOB>1996-06-06</DOB>        
+    </user>
+</users>

@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>User Information</title>
+        <link href="CSS/user.css" rel="stylesheet" type="text/CSS">
+        <script type="text/javascript" src="JS/clock.js"></script>
+    </head>
+    <body onload="startTime()">
+        <div>
+            <ul class="nav">
+                <li>
+                    <a href="index.jsp">Home</a>
+                </li>
+            </ul>
+        </div>
+        <h1 style="text-align: center">User List</h1>
+        <table>
+            <thead>
+                <th>ID</th><th>Name</th><th>Email</th><th>Date of Birth</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>608493</td><td>Alice Ming</td><td><a href="http://localhost:8080/labs/account.jsp?email=alice.m@example.com">alice.m@example.com</a></td><td>1999-03-02</td>
+                </tr>
+                <tr>
+                    <td>608500</td><td>Shilpa G</td><td><a href="http://localhost:8080/labs/account.jsp?email=shilpa.g@example.com">shilpa.g@example.com</a></td><td>1991-09-30</td>
+                </tr>
+                <tr>
+                    <td>100129</td><td>John Smith</td><td><a href="http://localhost:8080/labs/account.jsp?email=john.smith@uts.com">john.smith@uts.com</a></td><td>2000-12-30</td>
+                </tr>
+                <tr>
+                    <td>100129</td><td>Alex Jones</td><td><a href="http://localhost:8080/labs/account.jsp?email=alex.jones@abdc.com">alex.jones@abdc.com</a></td><td>1996-06-06</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="clock" class="footer"></div>
+    </body>
+</html>

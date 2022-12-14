@@ -1,0 +1,209 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-Nov-2022, 3:04:45 PM
+    Author     : 236336
+*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+body{    
+    /*background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(vision.jpg)no-repeat center center fixed;*/
+    background: url(white-blue3.png)no-repeat center center fixed;
+    letter-spacing: 4px;
+    font-family: 'Josefin Sans', Helvetica, sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    background-size: 100% 100%;     
+}
+
+h1{
+/*    position: absolute;*/
+/*    left: 40%;*/
+ 
+    text-align: center;
+    font-size: 80px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 7px;
+    /*color:#124f52;*/   
+    color:#065381;
+    text-shadow: -1px 1px 0 #003366, 1px 1px 0 #003366, 1px -1px 0 #003366, -1px -1px 0 #003366;
+}
+
+ul.nav {
+/*    position:
+    right:0;
+    top:0;*/
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:46px; line-height:46px;
+    background:#065381; /* you can change the backgorund color here. */
+    font-family:Helvetica, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: bold;
+    border-radius: 15px;
+    
+}
+ul.nav li {
+    border-right:2px solid #065381; /* you can change the border color matching to your background color */
+    float:left;
+}
+
+/*character*/
+ul.nav a { 
+    display:block;
+    padding:0 28px;
+    color:#f4f4fc;    
+    text-decoration:none;
+}
+
+ul.nav a:hover,
+ul.nav li.current a {
+    border-radius: 15px;
+    background:whitesmoke;
+    color: #065381;
+    font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  padding: 3px 6px;
+  background-color: #444;
+  color: #FFF;
+  border: 1px solid #222;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: arial, verdana, sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+.tables{
+    align-content: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    border-collapse: collapse;
+    padding: 10px;
+    border: solid 1px;
+    margin: auto;
+    margin-top : 15%;
+    width: 30%;
+    background:#124f52;
+/*    opacity: 0.7;*/
+}
+
+.tableWelcome{
+    position: fixed;
+    right:35%;
+    bottom: 45%;
+    align-content: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    border-collapse: collapse;
+    padding: 10px;
+    border: solid 1px;
+    margin: auto;
+    margin-top : 15%;
+    width: 30%;
+    background:#124f52;
+}
+
+.string-box{  
+    background-color: #065381;
+    padding: 30px 60px; 
+    border-radius: 10px;
+    box-shadow: 2px 5px 20px #000;
+}
+
+.table1{
+    position:absolute;
+    right:35%;
+    bottom: 35%;
+    font-weight: bolder;
+    color: #065381;
+    border-collapse: collapse;    
+    padding: 10px;
+    /*border: solid 1px;*/
+    /*border-radius: 10px;*/
+    box-shadow: 2px 5px 20px #000;
+    margin: auto;
+    margin-top : 15%;
+    max-width: 30%;
+    background:whitesmoke;
+/*    opacity: 0.7;*/
+}
+
+
+.table2{
+    position:absolute;
+    right:35%;
+    bottom: 10%;
+    font-weight: bolder;
+    color: #065381;
+    border-collapse: collapse;
+    /*border-radius: 15px;*/
+    padding: 10px;
+    /*border: solid 1px;*/
+    box-shadow: 2px 5px 20px #000;    
+    margin: auto;
+    margin-top : 15%;
+    max-width: 30%;
+    background:whitesmoke;
+/*    opacity: 0.7;*/
+}
+
+.table{
+    font-weight: bolder;
+    border-collapse: collapse;
+    padding: 10px;
+    /*border: solid 1px;*/
+    margin: auto;
+    margin-top : 15%;
+    width: 30%;
+    /*color: #003366;*/
+    /*border-radius: 20px;*/
+    /*box-shadow: 5px 20px 50px #000;*/
+    opacity :1;
+    /*box-shadow:  -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;*/
+}
+
+
+td {
+    padding: 10px;
+}
+
+input{
+    background-color:#f4f4fc;
+    color: #0c0c14;
+    font-size: 16px;
+    width: 300px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.footer{
+    position:fixed;
+    bottom: 5%;
+    right :2%;
+    width: 100%;
+    /*background-color: #1d1d1d;*/
+    font-size: 50px;
+    color: #065381;
+    padding: 3px;
+    text-align: right;
+    opacity:1;
+}
+
+caption{
+    font-size: 28px;
+    padding: 10px; 
+    background-color: #065381; 
+    border: solid 1px;
+    color: whitesmoke;
+    /*border-color: black;*/
+}
+
